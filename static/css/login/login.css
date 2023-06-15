@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("fundo.jpg");
+  font-family: "K2D", sans-serif;
+}
+
+#logoDbBlue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.38);
+  width: 18vw;
+  height: 45vh;
+  margin: auto;
+  border-radius: 20px;
+}
+
+#welcome {
+  display: flex;
+  font-weight: 100;
+  color: #02BCFF;
+  text-shadow: -4px 6px 4px rgba(0, 0, 0, 0.49);
+  font-size: 2vw;
+}
+
+.campoInput {
+  height: 3vh;
+  width: 12vw;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 200;
+  font-family: "K2D";
+}
+
+.botao {
+  background-color: #02BCFF;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-family: "K2D";
+  font-weight: 500;
+  font-size: 30px;
+  width: 7vw;
+  height: 5vh;
+  border-radius: 10px;
+}
+
+#login {
+  margin-top: 5vw;
+}
+
+#email {
+  margin-bottom: 1vw;
+}
+
+#logoDbBlue img {
+  width: 30vw;
+  margin-bottom: 5%;
+}
+
+#signup {
+  position: relative;
+  top: 20vh;
+  left: 90%;
+}
+
+#voltar {
+  margin: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "K2D";
+  font-weight: 100;
+  font-size: 1vw;
+}
+
+.botao:hover {
+  box-shadow: 8px 9px 4px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+#voltar:hover {
+  border-bottom: 1px solid #ffffff;
+  transition: all 0.5s;
+}
+
+.campoInput:focus {
+  border: 1px solid rgba(2, 188, 255, 0.6352941176);
+  transition: all 0.5s;
+}/*# sourceMappingURL=login.css.map */
