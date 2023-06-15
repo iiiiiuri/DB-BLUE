@@ -1,0 +1,414 @@
+//HOME
+
+body {
+    margin: 0;
+    padding: 0;
+<<<<<<< HEAD:static/css/home.scss
+    background-image: url('fundo.jpg');
+=======
+    background-color: #003468;
+>>>>>>> parent of 2612a9d (--Fundo):css/home.scss
+    font-family: 'K2D', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+#cabecalho {
+    display: flex;
+    background-color: #23507d;
+    border-bottom: 2px solid whitesmoke;
+    position: sticky;
+    top: 0;
+}
+
+#tamanhoCabecalho {
+    width: auto;
+    height: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin-left: 25%;
+}
+
+li {
+    margin-left: 3vw;
+    list-style-type: none;
+}
+
+#logo {
+    width: 200px;
+    padding-top: 15px;
+    padding-left: 5px;
+    align-items: center;
+
+}
+
+.textoCabecalho {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 100;
+
+}
+
+.textoCabecalho:hover,
+.textoCabecalho:active {
+    border-bottom: 1px solid #ffff;
+    
+
+}
+
+.container1,
+.container2,
+.container3 {
+    display: flex;
+
+
+}
+
+
+#primeiraImagemEsquerda {
+
+    width: auto;
+    height: 50vw;
+    margin-left: 4vw;
+
+
+}
+
+.primeiroConteudoDireita {
+    width: 31vw;
+    height: auto;
+    margin-top: 12vh;
+    margin-left: 5vw;
+    padding: 1vw;
+    border-radius: 1vw;
+    background-color: rgba(0, 0, 0, 0.322);
+}
+
+
+#primeiroParagrafoDireita {
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 1.5vw;
+    font-style: italic;
+}
+
+
+#primeiroTituloDireita {
+    color: #ffffff;
+<<<<<<< HEAD:static/css/home.scss
+    font-size: 2.5vw;
+=======
+    font-size: 3em;
+    text-shadow: -4px 5px 4px #489CF0;
+>>>>>>> parent of 2612a9d (--Fundo):css/home.scss
+}
+
+
+#botaoUpload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #489CF0;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1vw 5vw 1vw 5vw;
+    border: 2px solid #ffff;
+    border-radius: 10px;
+    font-size: 2em;
+}
+
+#botaoUpload:hover {
+    box-shadow: 8px 9px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.separadorHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    font-size: 46px;
+    margin-top: 0;
+}
+
+///ABOUT
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container2 p {
+    font-style: oblique;
+    font-weight: 100
+}
+
+.primeira,
+.segunda,
+.terceira {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vw;
+    width: 30vw;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.paragrafoAbout {
+    color: #ffff;
+    background-color: #00000069;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.1vw;
+
+}
+
+.paragrafoAbout:hover {
+    border: 1px solid #ffff;
+    
+}
+
+.tituloImagemAbout {
+    color: #ffff;
+}
+
+.separadorAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    font-size: 46px;
+    margin-bottom: 11vw;
+}
+
+//PRICE
+
+.container3 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.free,
+.standard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #06638032;
+    border-radius: 20px;
+    height: 50vh;
+    border: 1px solid #ffff;
+    width: 23vw;
+}
+
+.enterprise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #066380;
+    border-radius: 20px;
+    height: 60vh;
+    border: 1px solid #ffff;
+    width: 23vw;
+
+}
+
+.free p,
+.standard p,
+.enterprise p {
+    text-align: center;
+    padding: 0;
+    margin: 1;
+    color: #ffff;
+    border-bottom: 1px solid #ffff;
+}
+
+.free h1,
+.standard h1,
+h3,
+.enterprise h1,
+h3 {
+    margin: 0;
+    padding: 0;
+
+}
+
+.free h1,
+.enterprise h1,
+.standard h1 {
+    color: #ffff;
+    font-size: 4vw;
+
+
+}
+
+.botaoCardsPreco {
+    display: flex;
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+    background-color: #01ACEA;
+    border-radius: 1vw;
+    font-size: 3vw;
+    border: 2px solid #ffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.botaoCardsPreco:hover {
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+    
+
+
+}
+
+.enterprise h3,
+.standard h3 {
+    color: #ffff;
+    font-size: 1.2vw;
+}
+
+
+.container3 p {
+    font-style: italic;
+    font-weight: 200;
+}
+
+.separadorPrice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    font-size: 46px;
+    margin-bottom: 5vw;
+}
+
+
+//CONFIGURAÇÕES GERAIS
+
+.separadorAbout,
+.separadorHome,
+.separadorPrice {
+    background-color: #225B94;
+}
+
+section {
+    width: auto;
+    height: 48vh;
+}
+
+.container2{
+    height: 30vw;
+}
+
+//FOOTER
+
+.container4 {
+    background-color: #00000038;
+    width: auto;
+    height: auto;
+}
+
+.container4_1 {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
+#git,
+#mail,
+#call {
+    width: 30px;
+    height: 30px;
+}
+
+#LogoIuri {
+    padding-right: 30px;
+    border-right: 2px solid white;
+    width: 200px;
+    height: 150px;
+}
+
+
+.virandoIcones {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    justify-content: space-around;
+
+}
+
+.virandoIcones a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'K2D';
+
+}
+<<<<<<< HEAD:static/css/home.scss
+.container4{
+    margin-top: 15vw;
+}
+
+
+//COMEÇO PARA CELULAR
+
+
+@media (max-width: 2000px) {
+    .container1 {
+        margin-bottom: 35vh;
+
+    }
+}
+@media (max-width: 1800px) {
+    .container1 {
+        margin-bottom: 25vh;
+
+    }
+}
+
+@media (max-width: 1500px) {
+    .container1 {
+        margin-bottom: 15vh;
+
+    }
+}
+
+@media (max-width: 1000px) {
+    .container1 {
+        margin-bottom: 10vh;
+
+    }
+}
+
+@media (max-width: 500px) {
+    .container1 {
+        margin-bottom: 5vh;
+
+    }
+}
+=======
+
+section{
+    width: auto;
+    height: 50vh;
+  }
+>>>>>>> parent of 2612a9d (--Fundo):css/home.scss

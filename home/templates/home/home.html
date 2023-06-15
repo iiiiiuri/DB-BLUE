@@ -1,0 +1,163 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DB-BLUE</title>
+    <link rel="icon" type="image/x-icon" href="favicon.svg">
+    </head>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <header id = 'cabecalho'>
+
+    <h1 id = 'tamanhoCabecalho'><img id="logo" src="{% static 'img\DB-BLUE.svg'%}"></h1>
+    <ul>
+        <li><a href="#home" class = 'textoCabecalho'>Home</a></li>
+        <li><a href="#about" class = 'textoCabecalho'>Sobre</a></li>
+        <li><a href="#price" class = 'textoCabecalho'>Planos</a></li>
+        <li><a href="#contact" class = 'textoCabecalho'>Contatos</a></li>
+       
+    </ul>
+    
+    <a href="conta.html#login">
+
+
+
+        <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+        <lord-icon
+            src="https://cdn.lordicon.com/bhfjfgqz.json"
+            trigger="hover"
+            colors="primary:#ffffff"
+            style="width: 50px; height: 50px; padding: 3px; margin-left: 33vw; color: rgb(255, 255, 255);">
+        </lord-icon>
+        
+        
+    
+
+
+        </a>
+
+</header>
+<body>
+    <h1 id="home" class="separadorHome">Home</h1>
+<section class="container1">
+    
+    <!-- -->
+    <div class="esquerda">
+        <img id ="primeiraImagemEsquerda"src="{% static 'img\frameHome.svg'%}" >
+    </div>
+
+
+
+    <div class="direita">
+        <div class="primeiroConteudoDireita">
+        <h1 id="primeiroTituloDireita">Carregue seus arquivos gratuitamente!</h1>
+        <p id='primeiroParagrafoDireita'>Crie já a sua conta gratuita com capacidade de armazenamento de até 500MB.
+                                         Seu espaço pode ser utilizado para armazenar documentos, fotos, vídeos e até mesmo códigos,
+                                         que podem ser acessados a partir de qualquer dispositivo conectado à internet.</p>
+
+           <a id = 'botaoUpload'href="conta.html#login">Upload</a>
+        </div>
+    </div>
+</section>
+
+<h1 id="about" class="separadorAbout">Sobre</h1>
+
+<section class="container2">
+
+    <div class="primeira">
+        <h2 class="tituloImagemAbout">Comprometimento</h2>
+        <img src="{% static 'img\aboutPrimeiro.svg'%}" id ='imagem1'>
+        <p id="paragrafoPrimeiro" class="paragrafoAbout">Acreditamos que cada cliente é único e,
+                                                         por isso, oferecemos uma ampla gama de soluções
+                                                         de armazenamento em nuvem que podem ser personalizadas
+                                                         para atender às necessidaes de cada um.</p>
+
+    </div>
+
+    <div class="segunda">
+        <h2 class="tituloImagemAbout">Equipe</h2>
+        <img src="{% static 'img\aboutSegundo.svg'%}" id="imagem2" >
+        <p id="paragrafoSegundo" class="paragrafoAbout">Nossa equipe é formada por profissionais experientes e talentosos,
+                                                        que estão sempre em busca de novas ideias e tendências para manter 
+                                                        nossa empresa na vanguarda da inovação.</p>
+    </div>
+
+    <div class="terceira">
+        <h2 class="tituloImagemAbout">Serviços</h2>
+        <img src="{% static 'img\aboutTerceiro.svg'%}" id="imagem3">
+        <p id="paragrafoTerceiro" class="paragrafoAbout">Valorizamos a transparência em tudo o que fazemos,
+                                                         trabalhando em estreita colaboração com nossos clientes 
+                                                         para entender suas necessidades e fornecer as soluções mais adequadas.</p>
+    </div>
+
+</section>
+
+<h1 id="price" class="separadorPrice">Planos</h1>
+
+<section class="container3">
+
+    <div class="free">
+        <h1>Grátis</h1>
+        <p>Funcionalidades básicas de gerenciamento de arquivos.</p>
+        <p>Armazenamento 500mb.</p>
+        <p >Suporte Via Chat-BOT</p>
+        <a href="" class = 'botaoCardsPreco'>Criar Conta</a>
+
+    </div>
+
+    <div class="enterprise">
+        <h1>$50/mês</h1>
+        <h3 id = 'temBordaBranca'>Empresarial</h3>
+        <p>Funcionalidades avançadas de gerenciamento de arquivos.</p>
+        <p>Armazenamento em nuvem ilimitado.</p>
+        <p>Suporte ao cliente via Email, Whatsapp, Telegram</p>
+        <p class = 'espaçador'>Upload Multiplataforma.</p>
+        <a href="" class = 'botaoCardsPreco'>Assinar</a>
+    </div>
+
+    <div class="standard">
+        <h1>$25/mês</h1>
+        <h3 id="temBordaBranca">Padrão</h3>
+        <p>Funcionalidades básicas de gerenciamento de arquivos.</p>
+        <p>Armazenamento 500gb.</p>
+        <p class = 'espaçador'>Suporte Via Email.</p>
+        <a href="" class = 'botaoCardsPreco'>Assinar</a>
+    </div>
+
+
+
+</section>
+<h1 id="contact"></h1>
+<footer class = 'container4'>
+
+    
+    <div class="container4_1">
+        <img src="{% static 'img\logoIuri.svg' %}" alt="logo" id="LogoIuri">
+            <div class="virandoIcones">
+
+                <a href="https://github.com/iiiiiuri" style="display: flex; align-items: center;">
+                    <img src="{% static 'img\gitHubIco.png'%}" alt="GitHub" id="git" style="padding-right: 10px; padding-bottom: 10px;">@iiiiiuri
+                </a>
+
+                <a href="mailto:iurilima.395@gmail.com?subject=DB-BLUE" style="display: flex; align-items: center;">
+                    <img  src="{% static 'img\emailIco.png' %}"  alt="Email" id="mail" style="padding-right: 10px; padding-bottom: 20px;">iurilima.395@gmail.com
+                </a>
+
+                <a href="" style="display: flex; align-items: center;">
+                    <img src="{% static 'img\callico.png' %}" alt="Call" id="call" style="padding-right: 10px;">(16)98250-1485
+                </a>
+
+            </div>
+    </div>
+
+</footer>
+
+
+</body>
+</html>
