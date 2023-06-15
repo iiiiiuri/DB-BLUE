@@ -26,6 +26,42 @@ So, there you have it! I'm excited to keep working on DB-BLUE, exploring all the
 
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
 
+# How i test this code?
+
+##### Python
+The first step for is, certify your have the python3 and pip installed in your machine, if you dont,
+install from https://www.python.org/downloads/release/python .
+
+
+
+
+##### Download Rep
+After you clone the repository, in the root of project execute the code  in your CMD.
+
+<code>python -m venv venv</code>
+
+This causes a virtualEnv to be created so that django is not installed on your machine, but on the Venv.
+Now, type the command <code> cd..</code> 2 times.
+
+This command takes you to the root of repository.
+
+Right now you need execute:
+##### 1. <code> pip install django</code>
+##### 2. <code>pip install psycopg2</code>
+
+And after that, execute
+
+<code>python manage.py runserver</code>
+
+Go to your navigator, and type the path located in your prompt.
+
+
+
+
+
+
+
+
 ### Thanks for reading!!
 
 ![LogoIuri](https://raw.githubusercontent.com/iiiiiuri/DB-BLUE/a1c0c051c891ecd5f9a3f3c36a060bed6a85d912/static/img/logoIuri.svg)
