@@ -1,8 +1,9 @@
+
 # ![DB-BLUE Logo](https://raw.githubusercontent.com/iiiiiuri/DB-BLUE/a1c0c051c891ecd5f9a3f3c36a060bed6a85d912/static/img/DB-BLUE.svg) 
 # What it he's does?
 * Hey everyone! I'm here to talk about my project, **DB-BLUE**. It's a project I'm working on to level up my skills and knowledge. The cool part is that I'm using Django.
 
-* The principal function of the project is, storage archives in the databases. The archives maybe a picture, codes, text, and videos.
+* The principal function of the project is, storage archives in the databases like a ![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white) or  ![OneDrive](https://img.shields.io/badge/OneDrive-0078D4.svg?style=for-the-badge&logo=microsoftonedrive&logoColor=white) . The archives maybe a picture, codes, text, and videos.
 
 * You know why I chose Django? Because it's like one the best of web frameworks, very strong and capable of handling projects of all sizes. As I add new features and ideas to DB-BLUE, Django helps me expand the project seamlessly.
 
