@@ -1,14 +1,14 @@
 
 # ![DB-BLUE Logo](https://raw.githubusercontent.com/iiiiiuri/DB-BLUE/a1c0c051c891ecd5f9a3f3c36a060bed6a85d912/static/img/DB-BLUE.svg) 
 # What it he's does?
-* Hey everyone! I'm here to talk about my project, **DB-BLUE**. It's a project I'm working on to level up my skills and knowledge. The cool part is that I'm using Django.
+* Hey everyone! I'm here to talk about my project, **DB-BLUE**. It's something I'm working on to improve my skills and knowledge, I'm using Django.
 
 * The principal function of the project is, storage archives in the databases like a ![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white) or  ![OneDrive](https://img.shields.io/badge/OneDrive-0078D4.svg?style=for-the-badge&logo=microsoftonedrive&logoColor=white) . The archives maybe a picture, codes, text, and videos.
 
-* You know why I chose Django? Because it's like one the best of web frameworks, very strong and capable of handling projects of all sizes. As I add new features and ideas to DB-BLUE, Django helps me expand the project seamlessly.
+* You know why I went with Django? Because it is one of the best web frameworks, very sturdy and capable of managing projects of all sizes. As I add new features and ideas to DB-BLUE, Django helps me expand the project seamlessly.
 
 # Attention!
-Oh, just to make it clear: DB-BLUE is a **study project** , okay? It's not for professional use or anything like that. I'm focused on improving its functionalities and delivering a cool experience, but it's not meant for production or making money, but, after in the future i wanna transform this project in a method of business for me, or sel this project.
+Oh, just to make it clear: DB-BLUE is a **study project** , okay? It's not for professional use or anything like that. I'm focused on improving its functionalities and delivering a cool experience, but it's not meant for production or making money, but, after in the future i wanna transform this project in a method of business for me.
 So, there you have it! I'm excited to keep working on DB-BLUE, exploring all the possibilities that Django has to offer.
 
 
@@ -63,7 +63,7 @@ Go to your navigator, and type the path located in your prompt.
 
 
 ### Thanks for reading!!
-
+#
 ![LogoIuri](https://raw.githubusercontent.com/iiiiiuri/DB-BLUE/a1c0c051c891ecd5f9a3f3c36a060bed6a85d912/static/img/logoIuri.svg)
 
 
