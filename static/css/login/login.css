@@ -3,6 +3,8 @@ body {
   padding: 0;
   background-image: url("fundo.jpg");
   font-family: "K2D", sans-serif;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 #logoDbBlue {

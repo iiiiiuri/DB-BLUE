@@ -4,6 +4,8 @@ body {
   font-family: "K2D";
   color: white;
   background-image: url(fundo.jpg);
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 html {
