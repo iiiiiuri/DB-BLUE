@@ -1,0 +1,56 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="{% static 'css/signup/signup.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <a href="{% url 'home' %}" class='homePai'>Home</a>
+    <h1 id='logo'><img src="{% static 'img\DB-BLUE.svg' %}"></h1>
+
+
+
+    <div class="containerForms">
+
+        <h2>Crie Sua Conta</h2>
+
+
+      
+        <input type="text" id="nome" placeholder='Nome'>
+
+        
+        <input type="text" id="sobrenome" placeholder='Sobrenome'>
+
+        
+        <input type="password" id="pass" placeholder ='Senha'>
+
+        
+        <input type="text" id="user" placeholder='Usuário'>
+
+        
+        <input type="email" id="email" placeholder ='Email'>
+
+
+
+        <a href="" id='botao'>Signup</a>
+
+
+    </div>
+
+
+    <a href="{% url 'login' %}" id='miguelito'>Voltar</a>
+</body>
+
+</html>
