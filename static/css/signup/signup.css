@@ -58,7 +58,7 @@ h2 {
   transition: all 0.5s;
 }
 
-.containerForms a {
+#botao {
   margin-top: 5%;
   margin-bottom: 5%;
   background-color: #02BCFF;
@@ -93,7 +93,7 @@ h2 {
   border-bottom: 1px solid rgb(255, 255, 255);
 }
 
-.containerForms a:hover {
+#botao:hover {
   box-shadow: 8px 9px 4px rgba(0, 0, 0, 0.25);
   transition: all 0.3s;
   cursor: pointer;

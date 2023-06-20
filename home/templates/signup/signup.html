@@ -21,34 +21,35 @@
     <h1 id='logo'><img src="{% static 'img\DB-BLUE.svg' %}"></h1>
 
 
-
+<form action ="{% url  'home' %}" method="post">
+    {% csrf_token %}
     <div class="containerForms">
 
         <h2>Crie Sua Conta</h2>
 
 
+    
+        <input type="text" id="nome" placeholder='Nome' name='nome' required>
+
+        
+        <input type="text" id="sobrenome" placeholder='Sobrenome' name='sobrenome' >
+
+        
+        <input type="password" id="pass" placeholder ='Senha' name='pass' >
+
+        
+        <input type="text" id="user" placeholder='Usuário' name='user' >
+
+        
+        <input type="email" id="email" placeholder ='Email' name='email' >
+
       
-        <input type="text" id="nome" placeholder='Nome'>
-
+        <input type="submit" id='botao' value = 'Signup'>
         
-        <input type="text" id="sobrenome" placeholder='Sobrenome'>
-
-        
-        <input type="password" id="pass" placeholder ='Senha'>
-
-        
-        <input type="text" id="user" placeholder='Usuário'>
-
-        
-        <input type="email" id="email" placeholder ='Email'>
-
-
-
-        <a href="" id='botao'>Signup</a>
 
 
     </div>
-
+</form>
 
     <a href="{% url 'login' %}" id='miguelito'>Voltar</a>
 </body>
