@@ -21,7 +21,7 @@
     <h1 id='logo'><img src="{% static 'img\DB-BLUE.svg' %}"></h1>
 
 
-<form action ="{% url  'home' %}" method="post">
+<form action ="{% url  'cadastrar' %}" method="post">
     {% csrf_token %}
     <div class="containerForms">
 
@@ -32,16 +32,16 @@
         <input type="text" id="nome" placeholder='Nome' name='nome' required>
 
         
-        <input type="text" id="sobrenome" placeholder='Sobrenome' name='sobrenome' >
+        <input type="text" id="sobrenome" placeholder='Sobrenome' name='sobrenome' required>
 
         
-        <input type="password" id="pass" placeholder ='Senha' name='pass' >
+        <input type="password" id="pass" placeholder ='Senha' name='pass' required>
 
         
-        <input type="text" id="user" placeholder='Usuário' name='user' >
+        <input type="text" id="user" placeholder="User" name='user' required>
 
         
-        <input type="email" id="email" placeholder ='Email' name='email' >
+        <input type="email" id="email" placeholder ='Email' name='email' required>
 
       
         <input type="submit" id='botao' value = 'Signup'>
